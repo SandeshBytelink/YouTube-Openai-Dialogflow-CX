@@ -9,10 +9,10 @@ webApp.use(express.urlencoded({
 }));
 webApp.use(express.json());
 
-const PORT = process.env.PORT || 5000;
+const PORT = 8080|| 5000;
 
 const configuration = new Configuration({
-    apiKey: process.env.OPENAI_API_KEY,
+    apiKey:'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',
 });
 const openai = new OpenAIApi(configuration);
 
