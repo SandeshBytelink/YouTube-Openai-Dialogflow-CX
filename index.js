@@ -12,7 +12,7 @@ webApp.use(express.json());
 const PORT = 8080|| 5000;
 
 const configuration = new Configuration({
-    apiKey:'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',
+    apiKey:,
 });
 const openai = new OpenAIApi(configuration);
 
